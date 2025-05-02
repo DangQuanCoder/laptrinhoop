@@ -18,7 +18,7 @@ public class AuthService {
             e.printStackTrace();
         }
     }
-
+ // Khiem commit
     private void createTablesIfNotExists() {
         try (Statement stmt = connection.createStatement()) {
             stmt.executeUpdate("CREATE TABLE IF NOT EXISTS users (" +
